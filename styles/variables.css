@@ -1,0 +1,68 @@
+/* ==========================================================================
+   ZELT SOLAR & ELECTRICALS — PROTOTYPE 3: TERRA
+   Design System & Color Tokens
+   "The Solar Experts. Right Here in Nairobi."
+   ========================================================================== */
+
+:root {
+  /* Color Palette — TERRA Earth & Solar */
+  --bg-primary: #FAFAF8;          /* Warm cream-white (earthy, natural) */
+  --bg-secondary: #F2F0EA;        /* Warmer off-white for alternating sections */
+  --bg-accent: #E8F5E9;           /* Soft mint-green (sustainability, nature) */
+  --bg-dark: #1A2E1F;             /* Deep forest green (grounded, expert) */
+  --bg-dark-card: #233B29;        /* Slightly lighter dark green for inner cards */
+
+  --accent-primary: #2D7A4F;       /* Forest green (trust, nature, growth) */
+  --accent-primary-hover: #236340; /* Darker forest green for hover */
+  --accent-primary-light: #3D9664; /* Brighter forest green */
+  --accent-secondary: #F59E0B;     /* Solar amber (energy, warmth, Kenya sun) */
+  --accent-secondary-hover: #D97706;/* Darker amber */
+  --accent-earth: #8B5E3C;         /* Warm brown (earthy, authentic) */
+  --accent-success: #166534;       /* Deep green */
+  --accent-danger: #991B1B;        /* Deep red */
+  --accent-highlight: #FEF08A;     /* Pale yellow for badges & highlights */
+
+  /* Text Colors */
+  --text-primary: #1C1917;         /* Near-black warm */
+  --text-secondary: #57534E;       /* Warm grey */
+  --text-muted: #A8A29E;           /* Light warm grey */
+  --text-light: #FFFFFF;           /* Pure white for dark sections */
+  --text-on-accent: #FFFFFF;
+
+  /* Borders & Surfaces */
+  --border-color: #D6D3CC;         /* Warm grey border */
+  --border-dark: #2D4A35;          /* Inside dark sections */
+  --border-focus: #2D7A4F;
+  --card-bg: #FFFFFF;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-accent: 'DM Serif Display', Georgia, serif;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(28, 25, 23, 0.06), 0 1px 2px rgba(28, 25, 23, 0.04);
+  --shadow-md: 0 4px 12px rgba(28, 25, 23, 0.07), 0 2px 4px rgba(28, 25, 23, 0.04);
+  --shadow-lg: 0 12px 28px rgba(28, 25, 23, 0.1), 0 4px 10px rgba(28, 25, 23, 0.05);
+  --shadow-xl: 0 20px 40px rgba(28, 25, 23, 0.15), 0 8px 16px rgba(28, 25, 23, 0.08);
+  --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* Layout Dimensions */
+  --container-max: 1280px;
+  --header-height: 68px;
+  --topbar-height: 38px;
+  --mobile-bottom-nav-height: 64px;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
